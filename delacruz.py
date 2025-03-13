@@ -18,7 +18,7 @@ def check_special_character(char):
         print(f"'{char}' is NOT a Special Character.")
 
 def identify_input(value):
-    for char in value:  # Process each character separately
+    for char in value:  
         if char.isdigit():
             check_odd_even(int(char))
         elif char.isalpha():
